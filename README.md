@@ -1,6 +1,6 @@
 # Udacity_Disaster_response
 
-Introduction
+## Introduction
 
 This repo is for the Disaster reponse project of the Udacity data science nanodegree.
 
