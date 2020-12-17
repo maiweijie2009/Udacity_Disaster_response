@@ -12,7 +12,8 @@ Dependencies:
 - Flask, back-end of our minimalistic web app
 
 Instructions:
-Run the following commands in the project's root directory to set up the database and model.
+
+1. Run the following commands in the project's root directory to set up the database and model.
 
 To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 
