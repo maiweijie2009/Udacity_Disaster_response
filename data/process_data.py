@@ -30,11 +30,7 @@ def clean_data(df):
     categories.columns = category_colnames
     # Convert category values to just numbers 0 or 1
     for column in categories:
-        # set each value to be the last character of the string
-        # categories[column] = categories[column].str[-1]
-        categories[column] = categories[column].apply(lambda x:str(x)[-1]).values    
-        # convert column from string to numeric
-        categories[column] = pd.to_numeric(categories[column])
+        categories[column] = categories[column].str.extract('(\d+)').astype(int)
     
     #Replace categories column in df with new category columns
     df.drop(columns=['categories'],inplace=True)
