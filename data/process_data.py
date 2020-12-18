@@ -30,7 +30,8 @@ def clean_data(df):
     categories.columns = category_colnames
     # Convert category values to just numbers 0 or 1
     for column in categories:
-        categories[column] = categories[column].str.extract('(\d+)').astype(int)
+        categories[column] = (categories[column].str.extract('(\d+)').astype(int)>0).astype(int)
+    
     
     #Replace categories column in df with new category columns
     df.drop(columns=['categories'],inplace=True)
@@ -38,7 +39,6 @@ def clean_data(df):
 
     # remove duplicates
     df.drop_duplicates(subset='message',inplace=True)
-    
     return df
        
 def save_data(df, database_filename):
@@ -64,6 +64,7 @@ def main():
         print('Cleaning data...')
         df = clean_data(df)
         
+        print(df['related'].value_counts())
         print('Saving data...\n    DATABASE: {}'.format(database_filepath))
         save_data(df, database_filepath)
         
