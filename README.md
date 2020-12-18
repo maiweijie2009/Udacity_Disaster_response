@@ -14,7 +14,7 @@ This repo is for the Disaster reponse project of the Udacity data science nanode
 ## File structure
 - app
 
-* run.py
+  - run.py
 
 ## Instructions
 
