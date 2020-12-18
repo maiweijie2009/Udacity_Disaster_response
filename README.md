@@ -29,6 +29,13 @@ This repo is for the Disaster reponse project of the Udacity data science nanode
   script to process the data files and output a database of cleaned data for machine learning
   
 - models
+  - train_classifier.py
+  script to create a machine learning pipeline to build, train, test and save a model (pkl format).
+  - model.pkl
+  Saved machine learning model using pickle
+  
+- Readme
+  
   
   
 
