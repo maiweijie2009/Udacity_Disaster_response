@@ -15,6 +15,9 @@ This repo is for the Disaster reponse project of the Udacity data science nanode
 - app
 
   - run.py
+  Script using flask to provide plotly visualizations and provide interactivity for entering text for further classification.
+  - templates
+    - go.html
 
 ## Instructions
 
