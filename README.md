@@ -18,6 +18,19 @@ This repo is for the Disaster reponse project of the Udacity data science nanode
   Script using flask to provide plotly visualizations and provide interactivity for entering text for further classification.
   - templates
     - go.html
+    - master.html
+    
+- data
+  - disaster_catetories.csv
+  data of the uncleaned categorization of disaster messages
+  - disaster_messages.csv
+  data of the uncleaned message
+  - process_data.py
+  script to process the data files and output a database of cleaned data for machine learning
+  
+- models
+  
+  
 
 ## Instructions
 
