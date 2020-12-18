@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repo is for the Disaster reponse project of the Udacity data science nanodegree. In this project, a machine learning pipeline is built to categorize emergenec messages based on the needs communicated by the sender. 
+This repo is for the Disaster reponse project of the Udacity data science nanodegree. In this project, a machine learning pipeline is built to categorize emergence messages based on the needs communicated by the sender. 
 
 ## Dependencies
 - Python 3.5+
