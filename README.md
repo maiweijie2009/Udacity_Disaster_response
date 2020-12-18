@@ -14,6 +14,8 @@ This repo is for the Disaster reponse project of the Udacity data science nanode
 ## File structure
 - app
 
+-run.py
+
 ## Instructions
 
 Run the following commands in the project's root directory to set up the database and model.
